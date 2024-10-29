@@ -32,7 +32,7 @@ export const aboutPersistence = (t: any) => [
     title: t("FAQ8"),
     content: (
       <div>
-        XPRT is listed on Centralised Exchanges such as{" "}
+        {t("FAQ8_ANS1")}{" "}
         <a
           href={"https://www.huobi.com/en-us/"}
           target="_blank"
@@ -64,7 +64,7 @@ export const aboutPersistence = (t: any) => [
         >
           <u>Ascendex </u>
         </a>
-        &nbsp;, etc, and Decentralized Exchanges such as{" "}
+        &nbsp;, {t("FAQ8_ANS2")}{" "}
         <a
           href={"https://osmosis.zone/"}
           target="_blank"
@@ -88,9 +88,7 @@ export const aboutPersistence = (t: any) => [
         >
           <u>Aerodrome </u>
         </a>
-        . (Please note that this is only for informational purposes; it is in no
-        way an endorsement of any particular exchange or financial or investment
-        advice.
+        . ({t("FAQ8_ANS3")})
       </div>
     )
   },
@@ -98,7 +96,7 @@ export const aboutPersistence = (t: any) => [
     title: t("FAQ9"),
     content: (
       <>
-        You can use{" "}
+        {t("FAQ9_ANS1")}{" "}
         <a
           href="https://blog.persistence.one/2024/06/04/how-to-bridge-xprt-to-base-chain-user-guide/"
           target="_blank"
@@ -114,7 +112,7 @@ export const aboutPersistence = (t: any) => [
         >
           <u>Ibc.fun</u>
         </a>{" "}
-        to bridge your XPRT to Base or other ecosystems.
+        {t("FAQ9_ANS2")}
       </>
     )
   },
@@ -122,12 +120,9 @@ export const aboutPersistence = (t: any) => [
     title: t("FAQ10"),
     content: (
       <>
-        XPRT stakers can submit new proposals, vote on proposals, suggest
-        parameter changes (like transaction fees or staking requirements),
-        govern the launch of new pools or incentives on the Persistence DEX,
-        and, in the future, govern the XPRT interoperability solution decisions.
+        {t("FAQ10_ANS1")}
         <br />
-        For off-chain discussions, anyone can visit the forum here:{" "}
+        {t("FAQ10_ANS2")}{" "}
         <a
           href="https://forum.persistence.one/"
           target="_blank"
