@@ -5,7 +5,7 @@ export const aboutPersistence = (t: any) => [
   },
 
   {
-    title: t("FAQ2_ANS"),
+    title: t("FAQ2"),
     content: t("FAQ2_ANS")
   },
   {
