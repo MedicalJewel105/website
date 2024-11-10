@@ -108,7 +108,7 @@ const Subscribe = () => {
                   position={{ base: "relative", md: "absolute" }}
                   right={{ base: "0", md: "-20px" }}
                   height={"52px"}
-                  width={{ base: "100%", md: "136px" }}
+                  minWidth={{ base: "100%", md: "136px" }}
                   isDisabled={validationError}
                   px={{ base: "16px", md: "24px" }}
                   bg={"#1D1306"}
